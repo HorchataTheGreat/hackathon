@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Restaurante</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" type="icon"  href="img/logo-01.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merienda+One" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -26,10 +30,11 @@
 	    <div class="collapse navbar-collapse" id="main-nav">
 	      <ul class="nav navbar-nav navbar-right">
 	        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">Our Story</a></li>
+	        <li><a href="story.html">Our Story</a></li>
 	        <li><a href="#">Review</a></li>
 	        <li><a href="#">Menu</a></li>
-	        <li><a href="#">Contact Us</a></li>
+	        <li><a href="contact.html">Contact Us</a></li>
+	        <li><a href="twitter.1/twitter.html">Blog</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -41,15 +46,46 @@
 	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 	  </ol>
 
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
-	    <div class="item active slide-one">
+
+		<div class="item active slide-one">
 	      <div class="carousel-caption">
 	        <img src="img/logo-01.png" alt="Restaurant Logo" class="img-responsive center-block slide-one-logo">
 	      </div>
-	    </div> <!-- end of slide one -->
+	    </div>
+
+		<div class="item slide-two">
+	      <div class="carousel-caption">
+	      	<h2>Eat Local</h2>
+	      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, veritatis cum velit nisi sed tempora ipsa deserunt repellat? Eius, corporis voluptatum accusantium molestiae eum dolorem recusandae eaque enim.</p>
+	      	<button type="button" class="btn btn-lg btn-primary"><a href="story.html"><strong>LEARN MORE</strong></a></button>
+		  </div>
+	    </div>
+
+		<div class="item slide-three">
+	      <div class="carousel-caption">
+	      	<h2>From farm to table.</h2>
+	      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, rem, similique temporibus saepe nemo repudiandae eveniet adipisci deleniti expedita voluptatem corporis dignissimos commodi dolorem quod repellat accusantium aperiam velit blanditiis.</p>
+	      	<button type="button" class="btn btn-lg btn-primary"><a href="story.html"><strong>BROWSE GALLERY</strong></a></button>
+	      </div>
+	    </div>
+	    
+	    <div class="item slide-four">
+	      <div class="carousel-caption">
+	      	<h2>Connect With Us!</h2>
+	      	<div class="btn-group" role="group" aria-label="...">
+	      		<button type="button" class="btn btn-lg btn-primary"><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></button>
+	      		<button type="button" class="btn btn-lg btn-primary"><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></button>
+	      		<button type="button" class="btn btn-lg btn-primary"><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></button>
+	      	</div>
+	      	
+	      </div>
+	    </div>
+
 	  </div> <!-- end of wrapper for slides -->
 
 	  <!-- Controls -->
@@ -67,15 +103,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<h1>Our Story</h1>
-					<h2>One Man. One Dream.</h2>
+					<h1 id="move">Our Story</h1>
+					<h2><i>More than a restaurant - a community.</i></h2>
+					<button type="button" class="btn btn-lg btn-primary center-block"><a href="story.html"><strong>LEARN MORE</strong></a></button>
 				</div>
 				<div class="col-sm-6">
-					<h3 class="story-year">1989</h3>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quaerat dolore, quis dolor reprehenderit repudiandae maxime atque commodi similique molestiae, asperiores cupiditate facere dolorum culpa iste rerum ratione dicta, soluta.</p>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quaerat dolore, quis dolor reprehenderit repudiandae maxime atque commodi similique molestiae, asperiores cupiditate facere dolorum culpa iste rerum ratione dicta, soluta.</p>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quaerat dolore, quis dolor reprehenderit repudiandae maxime atque commodi similique molestiae, asperiores cupiditate facere dolorum culpa iste rerum ratione dicta, soluta.</p>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quaerat dolore, quis dolor reprehenderit repudiandae maxime atque commodi similique molestiae, asperiores cupiditate facere dolorum culpa iste rerum ratione dicta, soluta.</p>
+					<p class="text-justify">Jason Cooksey, the founder of Restaurante, has been involved with this restaurant for 5 years, and involved in the culinary arts for 23. Jason’s love for food comes from a young age. One day, Jason was visiting a friend, and at this friend’s house, their mother made them something to eat. The meal was mindblowing. It brought tears to his eyes! </p>
+					<p class="text-justify">From that moment, Jason knew that he wanted to know how to do that; he wanted to know how to move people with food. Growing up in Fresno, he stays true to his hometown and wants to make a change. </p>
+					<p class="text-justify">To do this, Jason decided to open a restaurant that is all about the community and using local ingredients. From the lettuce used in the burgers, to the beef that makes up the patties, everything is local, and everything is fresh. The team at Restaurante whole heartedly believe that eating local is the way to go and that this can help transform the community.</p>
+					<p class="text-justify">At Restaurante, we believe that a friendly environment is everything. To reinforce this, we do not have a bar. While we do still serve alcoholic beverages, we believe that part of a nice dining experience shouldn’t include sitting forward and staring at a wall of television. We believe that by doing this, we open up our customers to have a more positive, and connective experience.</p>
 				</div>
 			</div>
 		</div>
@@ -87,6 +123,7 @@
 				<div class="col-sm-8 center">
 					<h2>Fresno Bee</h2>
 					<p>"The freshest and best ingredients come together to make some of the best food I have ever ate. You can really taste the Central Valley in every bite"</p>
+					<button id="freshbtn" class="btn btn-lg btn-primary"><a href="fresnobee.html"><strong>LEARN MORE</strong></a></button>
 				</div>
 			</div>
 		</div>
@@ -111,46 +148,46 @@
 			    <div role="tabpanel" class="tab-pane fade in active" id="appetizer">
 			    	<div class="col-xs-6 col-sm-3 food app1">
 			    		<img src="img/dip.jpg" alt="" class="img-responsive img-thumbnail">
-			    		<h3>Appetizer 1</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae tempore in, impedit cupiditate beatae placeat iste unde iure commodi sequi porro repudiandae quis blanditiis est corporis consectetur autem, alias soluta!</p>
+			    		<h3>Toasted Garlic Bread</h3>
+			    		<p>Light Italian bread toasted and buttered to perfection. With various dipping sauces, this appetizer is sure to create a savory explosion that will leave you breathless. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			    	</div>
 			    	<div class="col-xs-6 col-sm-3 food app2">
 			    		<img src="img/eggplant.jpg" alt="" class="img-responsive img-thumbnail">
-			    		<h3>Appetizer 2</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident error nemo praesentium totam laborum commodi rem hic architecto inventore, alias magni optio adipisci nisi eos pariatur? Facere totam, debitis saepe?</p>
+			    		<h3>Egglant Bruchetta</h3>
+			    		<p>Instead of italian bread, we have a grilled slice of eggplant serving as the base of our Eggplant Bruschetta. Topped with creamy mozzarella cheese, tomato, and basil, this dish is sure to leave you wanting more.</p>
 			    	</div>
 			    	<div class="col-xs-6 col-sm-3 food app3">
 			    		<img src="img/meat.jpg" alt="" class="img-responsive img-thumbnail">
-			    		<h3>Appetizer 3</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi obcaecati placeat dolorem molestiae veniam, atque, rerum minus similique eligendi! Amet repellat temporibus id eius itaque reprehenderit velit inventore, iure ipsa.</p>
+			    		<h3>Black Forest Ham-rolls</h3>
+			    		<p>A light cream cheese, tomato, and sauteed asparagus wrapped in a fresh slice of delicious black forest ham. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, accusamus saepe minus tempora fugiat dolore!</p>
 			    	</div>
 			    	<div class="col-xs-6 col-sm-3 food app4">
 			    		<img src="img/bruschetta.jpg" alt="" class="img-responsive img-thumbnail">
-			    		<h3>Appetizer 4</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem amet, non, numquam cumque eos modi quos quisquam corrupti commodi! Eius minima facilis iste repellendus amet rem veniam necessitatibus neque aut.</p>
+			    		<h3>Bruchetta</h3>
+			    		<p>A slice of fresh, toasted italian baguette, with a light drizzle of olive oil, topped with garlic, tomatoes, and basil.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, nihil, ex quasi molestiae id accusamus.</p>
 			    	</div>
 			    </div>
 			    <!-- end of appetizer -->
 			    <div role="tabpanel" class="tab-pane fade" id="lunch">
 			    	<div class="col-xs-6 col-sm-3 food app1">
-			    		<img src="img/dip.jpg" alt="" class="img-responsive img-thumbnail">
-			    		<h3>Lunch 1</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae tempore in, impedit cupiditate beatae placeat iste unde iure commodi sequi porro repudiandae quis blanditiis est corporis consectetur autem, alias soluta!</p>
+			    		<img src="img/pexels-baconbrg.jpeg" alt="" class="image img-responsive img-thumbnail">
+			    		<h3>Triple Bacon Cheeseburger</h3>
+			    		<p>The triple bacon cheeseburger! With applewood bacon smoked to perfection, and a whole lot of it, a smokey BBQ sauce that kicks you with a tang, and an aged cheddar that's sure to tickle your tastebuds, we know you will love one of our most prided dishes.</p>
 			    	</div>
 			    	<div class="col-xs-6 col-sm-3 food app2">
-			    		<img src="img/eggplant.jpg" alt="" class="img-responsive img-thumbnail">
-			    		<h3>Lunch 2</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident error nemo praesentium totam laborum commodi rem hic architecto inventore, alias magni optio adipisci nisi eos pariatur? Facere totam, debitis saepe?</p>
+			    		<img src="img/pexels-meat.jpg" alt="" class="image img-responsive img-thumbnail">
+			    		<h3>Smoked Sausage</h3>
+			    		<p>For all of the dedicated carnivores out there, this dish includes smoked sausages of several varieties with your choice of side. Grilled to a perfection.</p>
 			    	</div>
 			    	<div class="col-xs-6 col-sm-3 food app3">
-			    		<img src="img/meat.jpg" alt="" class="img-responsive img-thumbnail">
-			    		<h3>Lunch 3</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi obcaecati placeat dolorem molestiae veniam, atque, rerum minus similique eligendi! Amet repellat temporibus id eius itaque reprehenderit velit inventore, iure ipsa.</p>
+			    		<img src="img/pexels-pizza.jpg" alt="" class="image img-responsive img-thumbnail">
+			    		<h3>Pizza</h3>
+			    		<p>From standard pepperoni, to combination, or building your own, our pizza is sure to satisfy. Your choice of crust, thick or thin, and our artisan cheeses are sure to please.</p>
 			    	</div>
 			    	<div class="col-xs-6 col-sm-3 food app4">
-			    		<img src="img/bruschetta.jpg" alt="" class="img-responsive img-thumbnail">
-			    		<h3>Lunch 4</h3>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem amet, non, numquam cumque eos modi quos quisquam corrupti commodi! Eius minima facilis iste repellendus amet rem veniam necessitatibus neque aut.</p>
+			    		<img src="img/pexels-salad.jpg" alt="" class="image img-responsive img-thumbnail">
+			    		<h3>Classic Salad</h3>
+			    		<p>Crisp romane lettuce, fresh fruit, a light dressing, and finely cut chicken, is a taste that will leave you wanting more. Try one of our classic salads! Lorem ipsum dolor sit amet.</p>
 			    	</div>
 			    </div>
 			    <!-- end of lunch -->
@@ -205,15 +242,40 @@
 			</div> <!-- closes tab content -->
 		</div> <!-- end of container -->
 	</section> <!-- end of menu -->
-	<section id="mapLocation">
-	</section>
 	<footer>
+		<ul>
+      <li role="presentation"><a href="index.html">Home</a></li>
+      <li role="presentation"><a href="story.html">Our Story</a></li>
+      <li role="presentation"><a href="#.html">Review</a></li>
+      <li role="presentation"><a href="events.html">Menu</a></li>
+      <li role="presentation"><a href="contact.html">Contact Us</a></li>
+      <li role="presentation"><a href="twitter.1/twitter.html">Blog</a></li>
+    </ul>
+    <div class="clearfix">
+        <div>
+          <ul>
+            <li>559.123.4567</li>
+            <li>restaurante@gmail.com</li>
+            <li>2000 E Cambridge Ave.</li>
+            <li>Fresno, CA 93703</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+      </div>
+      </div>
+		</div>
 	    <span>Restaurant &copy;2016</span>
 	</footer>
 
-
+	<script src="https://use.fontawesome.com/854971f0b2.js"></script>
 	<!-- javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/animation.js"></script>
 </body>
 </html>
